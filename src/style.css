@@ -260,6 +260,7 @@ button:focus {
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
+  background-size: cover;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
 }
@@ -741,3 +742,12 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+.rounded-avatar {
+  border-radius: 10%; /* Makes the image round */
+  width: 900px; /* Adjust the size as needed */
+  height: 600px; /* Adjust the size as needed */
+  object-fit: cover; /* Ensures the image covers the entire area */
+}
+
+.embla {  overflow: hidden;}.embla__container {  display: flex;}.embla__slide {  flex: 0 0 100%;  min-width: 0;}
